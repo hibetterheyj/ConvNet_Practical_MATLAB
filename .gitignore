@@ -1,4 +1,5 @@
 # 此为注释 – 将被 Git 忽略
+# 忽略 xxx/ 目录下的所有文件
 
-matconvnet/    # 忽略 build/ 目录下的所有文件
+matconvnet/
 data/
