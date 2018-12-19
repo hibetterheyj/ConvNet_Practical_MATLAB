@@ -1,7 +1,9 @@
+% modified for my personal configuration
+% 改为我本人配置
 function setup(varargin)
 % SETUP  Add the required search paths to MATLAB
-run matconvnet/matlab/vl_setupnn ;
-addpath matconvnet/examples ;
+run ~/Library/matconvnet-1.0-beta24/matlab/vl_setupnn ;
+addpath ~/Library/matconvnet-1.0-beta24/examples ;
 
 opts.useGpu = false ;
 opts.verbose = false ;
